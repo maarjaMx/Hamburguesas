@@ -32,7 +32,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="180-4U-d7g">
                                 <rect key="frame" x="184" y="300" width="192" height="30"/>
-                                <state key="normal" title="Quiero una hamburguesa!"/>
+                                <state key="normal" title="Quiero una hamburguesa!!!"/>
                                 <connections>
                                     <action selector="quiero" destination="BYZ-38-t0r" eventType="touchUpInside" id="DRv-8e-Jmo"/>
                                 </connections>
@@ -48,6 +48,9 @@
                             <constraint firstItem="cHr-lE-OiU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="173" id="s0j-DR-eal"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mensajeHamburguesa" destination="cHr-lE-OiU" id="ffq-Lx-zyK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
